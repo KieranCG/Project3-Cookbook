@@ -4,4 +4,4 @@ from cookbook.models import Recipe, Ingredient
 
 @app.route("/")
 def home():
-    return render_template("base.html")
+    return render_template("recipe.html")
