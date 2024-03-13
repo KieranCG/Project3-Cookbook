@@ -70,15 +70,22 @@ def add_recipe():
             db.session.rollback()  # Rollback transaction in case of error
     return render_template("add_recipe.html", categories=categories)
 
+
 @app.route("/edit_recipe/<int:recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
     recipe = Recipe.query.get_or_404(recipe_id)
+    categories = list(Category.query.order_by(Category.category_name).all())
     if request.method == "POST":
-        # Handle form submission for editing the recipe
-        # Update the recipe with the new data
+        recipe.recipe_name = request.form.get("recipe_name")
+        recipe.description = request.form.get("description")
+        recipe.instructions = request.form.get("instructions")
+        recipe.servings = request.form.get("servings")
+        recipe.prep_time = request.form.get("prep_time")
+        recipe.cook_time = request.form.get("cook_time")
+        recipe.total_time = request.form.get("total_time")
+        recipe.category_id = request.form.get("category_id")
         db.session.commit()
-        return redirect(url_for("home"))  # Redirect to home page after editing
-    return render_template("edit_recipe.html", recipe=recipe)
+    return render_template("edit_recipe.html", recipe=recipe, categories=categories)
 
 @app.route("/delete_recipe/<int:recipe_id>")
 def delete_recipe(recipe_id):
