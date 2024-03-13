@@ -5,8 +5,14 @@ from cookbook.models import Category, Recipe
 
 @app.route("/")
 def home():
-    recipe = list(Recipe.query.order_by(Recipe.id).all())
-    return render_template("recipe.html", recipe=recipe)
+    try:
+        recipes = Recipe.query.order_by(Recipe.id).all()
+        print(recipes)  # Print recipes to verify if they are fetched correctly
+        categories = Category.query.order_by(Category.category_name).all()  # Fetch categories as well
+        return render_template("recipe.html", recipes=recipes, categories=categories)
+    except Exception as e:
+        print(f"Error fetching recipes: {str(e)}")  # Log error message
+        return "Error fetching recipes. Please try again later.", 500
 
 
 @app.route("/categories")
@@ -63,3 +69,20 @@ def add_recipe():
             print(f"Error adding recipe: {str(e)}")  # Log error message
             db.session.rollback()  # Rollback transaction in case of error
     return render_template("add_recipe.html", categories=categories)
+
+@app.route("/edit_recipe/<int:recipe_id>", methods=["GET", "POST"])
+def edit_recipe(recipe_id):
+    recipe = Recipe.query.get_or_404(recipe_id)
+    if request.method == "POST":
+        # Handle form submission for editing the recipe
+        # Update the recipe with the new data
+        db.session.commit()
+        return redirect(url_for("home"))  # Redirect to home page after editing
+    return render_template("edit_recipe.html", recipe=recipe)
+
+@app.route("/delete_recipe/<int:recipe_id>")
+def delete_recipe(recipe_id):
+    recipe = Recipe.query.get_or_404(recipe_id)
+    db.session.delete(recipe)
+    db.session.commit()
+    return redirect(url_for("home"))  # Redirect to home page after deleting
