@@ -44,17 +44,22 @@ def delete_category(category_id):
 def add_recipe():
     categories = list(Category.query.order_by(Category.category_name).all())
     if request.method == "POST":
-        recipe = Recipe(
-            recipe_name=request.form.get("recipe_name"),
-            description=request.form.get("description"),
-            instructions=request.form.get("instructions"),
-            servings=request.form.get("servings"),
-            prep_time=request.form.get("prep_time"),
-            cook_time=request.form.get("cook_time"),
-            total_time=request.form.get("total_time"),
-            category_id=request.form.get("category_id")
-        )
-        db.session.add(recipe)
-        db.session.commit()
-        return redirect(url_for("home"))
+        try:
+            recipe = Recipe(
+                recipe_name=request.form.get("recipe_name"),
+                description=request.form.get("description"),
+                instructions=request.form.get("instructions"),
+                servings=request.form.get("servings"),
+                prep_time=request.form.get("prep_time"),
+                cook_time=request.form.get("cook_time"),
+                total_time=request.form.get("total_time"),
+                category_id=request.form.get("category_id")
+            )
+            db.session.add(recipe)
+            db.session.commit()
+            print("Recipe added successfully.")  # Log success message
+            return redirect(url_for("home"))
+        except Exception as e:
+            print(f"Error adding recipe: {str(e)}")  # Log error message
+            db.session.rollback()  # Rollback transaction in case of error
     return render_template("add_recipe.html", categories=categories)
