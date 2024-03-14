@@ -1,9 +1,20 @@
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+/* Define the custom class for EB Garamond font */
+.eb-garamond-italic-600 {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /* Adjust the weight as needed */
+  font-style: italic; /* If applicable */
+}
 
-  main {
-    flex: 1 0 auto;
-  }
+/* Apply the custom font to the body */
+body {
+  font-family: "EB Garamond", serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* Style for the main element */
+main {
+  flex: 1 0 auto;
+}
