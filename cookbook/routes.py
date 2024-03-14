@@ -85,6 +85,8 @@ def edit_recipe(recipe_id):
         recipe.total_time = request.form.get("total_time")
         recipe.category_id = request.form.get("category_id")
         db.session.commit()
+        # Redirect to home page after editing
+        return redirect(url_for("home"))
     return render_template("edit_recipe.html", recipe=recipe, categories=categories)
 
 @app.route("/delete_recipe/<int:recipe_id>")
