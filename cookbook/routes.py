@@ -1,7 +1,7 @@
 from flask import render_template, request, redirect, url_for
 from cookbook import app, db
 from cookbook.models import Category, Recipe
-
+from sqlalchemy import func
 
 @app.route("/")
 def home():
@@ -14,12 +14,10 @@ def home():
         print(f"Error fetching recipes: {str(e)}")  # Log error message
         return "Error fetching recipes. Please try again later.", 500
 
-
 @app.route("/categories")
 def categories():
     categories = list(Category.query.order_by(Category.category_name).all())
     return render_template("categories.html", categories=categories)
-
 
 @app.route("/add_category", methods=["GET", "POST"])
 def add_category():
@@ -70,7 +68,6 @@ def add_recipe():
             db.session.rollback()  # Rollback transaction in case of error
     return render_template("add_recipe.html", categories=categories)
 
-
 @app.route("/edit_recipe/<int:recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
     recipe = Recipe.query.get_or_404(recipe_id)
@@ -95,3 +92,32 @@ def delete_recipe(recipe_id):
     db.session.delete(recipe)
     db.session.commit()
     return redirect(url_for("home"))  # Redirect to home page after deleting
+
+
+@app.route("/filter_recipes", methods=["GET"])
+def filter_recipes():
+    query = request.args.get("query")
+    print("Search query:", query)  # Debugging statement
+    # Convert the search term to lowercase and remove whitespace
+    search_term = query.strip().lower()
+    print("Processed search term:", search_term)  # Debugging statement
+    # Perform a case-insensitive search for partial matches
+    filtered_recipes = Recipe.query.filter(func.lower(Recipe.recipe_name).like(f"%{search_term}%")).all()
+    print("Filtered recipes:", filtered_recipes)  # Debugging statement
+    return render_template("filtered_recipes.html", recipes=filtered_recipes, search_term=query)
+
+
+@app.route("/search", methods=["GET", "POST"])
+def search():
+    if request.method == "POST":
+        try:
+            search_term = request.form.get("search_term")
+            print("Search term:", search_term)  # Debugging statement
+            # Query the recipes based on the search term
+            recipes = Recipe.query.filter(Recipe.recipe_name.ilike(f"%{search_term}%")).all()
+            print("Filtered recipes:", recipes)  # Debugging statement
+            return render_template("filtered_recipes.html", recipes=recipes, search_term=search_term)
+        except Exception as e:
+            print(f"Error performing search: {str(e)}")  # Log error message
+            return "Error performing search. Please try again later.", 500
+    return render_template("search.html")

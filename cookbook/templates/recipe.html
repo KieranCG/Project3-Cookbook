@@ -3,6 +3,15 @@
 
 <h3 class="green-text text-darken-5 center-align">Recipes</h3>
 
+<!-- Search Bar -->
+<form action="{{ url_for('filter_recipes') }}" method="GET">
+    <div class="input-field">
+        <input id="search" type="search" name="query" placeholder="Filter recipes...">
+        <label class="label-icon" for="search"><i class="material-icons"></i></label>
+        <i class="material-icons">close</i>
+    </div>
+</form>
+
 <!-- Modal Structure -->
 <div id="deleteModal" class="modal">
     <div class="modal-content">
