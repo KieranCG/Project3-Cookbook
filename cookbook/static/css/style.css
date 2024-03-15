@@ -8,6 +8,7 @@
 
 /* Apply the custom font to the body */
 body {
+  background-color: #f1f8e9;
   font-family: "EB Garamond", serif;
   display: flex;
   min-height: 100vh;
