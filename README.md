@@ -90,17 +90,21 @@ The user interface design aims to provide a visually appealing and seamless expe
 
 The color scheme is carefully chosen to enhance readability, accessibility, and overall aesthetics. A combination of warm and inviting colors promotes a welcoming atmosphere within the app.
 
-![Color Scheme](assets/images/cookbook_color_scheme.png "Cookbook Color Scheme")
+![Color Scheme](cookbook/static/images/colour-scheme.png "Cookbook Color Scheme")
 
 ##### Typography
 
-Clear and legible typography is selected to ensure easy readability and navigation throughout the app. Consistent font styles contribute to a cohesive and professional UI.
+Clear and legible typography EB Garamond is selected to ensure easy readability and navigation throughout the app. Consistent font styles contribute to a cohesive and professional UI.
 
 ##### Layout and Responsiveness
 
-The app layout is designed to be responsive, adapting to various screen sizes and devices. Flexible grid-based layouts enhance the organization of content, providing a structured and visually appealing interface.
+The app layout is designed to be responsive, adapting to various screen sizes and devices. Materialize grid-based layouts enhance the organization of content, providing a structured and visually appealing interface.
 
-![Responsive Design](assets/images/cookbook_responsive_design.png "Cookbook Responsive Design")
+![Main Page](cookbook/static/images/main-page-wireframe.png "Cookbook Main Page")
+
+![Responsive Design](cookbook/static/images/responsive-wireframe.png "Cookbook Responsive Design")
+
+![Mobile Design](cookbook/static/images/mobile-wireframe.png "Cookbook Mobile Design")
 
 #### App Elements and Features
 
@@ -108,13 +112,15 @@ The design of app elements and features contributes to an intuitive and enjoyabl
 
 ##### Recipe Cards
 
-Recipe cards display essential information such as recipe title, image, and brief description. Users can easily navigate through recipes and access detailed recipe pages.
+Recipe cards display essential information such as recipe title and brief description. Users can easily navigate through recipes and access detailed recipe pages.
 
-![Recipe Cards](assets/images/recipe_cards.png "Recipe Cards")
+![Recipe Cards](cookbook/static/images/recipe-card.png "Recipe Cards")
 
 ##### Search Bar
 
-A search bar allows users to quickly find recipes based on keywords, ingredients, or categories. Autocomplete suggestions enhance search usability and efficiency.
+A search bar allows users to quickly find recipes based on keywords.
+
+![Recipe Cards](cookbook/static/images/search-bar.png "Recipe Cards")
 
 ##### Recipe Details
 
@@ -123,10 +129,6 @@ Detailed recipe pages provide comprehensive information including ingredients, i
 #### External APIs Integration (Future Development)
 
 The app incorporates external APIs to enrich the user experience and provide additional content.
-
-##### Nutritional API(Future Development)
-
-Integration with a nutritional API provides users with detailed nutritional information for each recipe. This feature promotes healthy eating habits and dietary awareness.
 
 ### Implementation
 
