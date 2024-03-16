@@ -19,3 +19,8 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+#collapsible-items {
+  position: relative;
+  z-index: 1; /* Ensure the collapsible items are in front of the background */
+}
