@@ -178,16 +178,26 @@ The script files are responsible for initialising interactive html functionality
 
 ### Testing
 
-Continuous testing is carried out throughout the development process to ensure app functionality, usability, and performance. Test categories include:
+### Testing
 
-- **Functionality Testing:** Testing core app features such as search, navigation, and recipe display.
+Throughout the development process of the Cookbook project, extensive testing was conducted to ensure the reliability and functionality of the application. The following tests were performed after each iteration of code changes.
 
-- **Usability Testing:** Evaluating user interface elements, layout, and navigation flow for intuitive usability.
+| Test Category             | Test Description                                                                        |
+|---------------------------|------------------------------------------------------------------------------------------|
+| Model Initialization      | 1. Create instances of Category and Recipe models.<br>2. Verify correct initialization of attributes. |
+| CRUD Operations           | 1. Create, read, update, and delete operations on Category and Recipe models.<br>2. Ensure data integrity and consistency. |
+| Form Submission           | 1. Submit forms for adding and editing recipes and categories.<br>2. Validate form submissions and database updates. |
+| Route Functionality       | 1. Test all routes for proper rendering of templates and handling of requests.<br>2. Verify correct redirection and error handling. |
+| Data Display              | 1. Ensure recipes and categories are displayed correctly on the home and category pages.<br>2. Check for proper formatting and styling. |
+| Input Validation          | 1. Submit forms with invalid data and ensure appropriate error messages are displayed.<br>2. Validate input length, format, and required fields. |
+| Error Handling            | 1. Intentionally trigger errors (e.g., database connection error) and verify error handling.<br>2. Ensure graceful error messages are displayed to users. |
+| Cross-Browser Testing     | 1. Test the application on different web browsers (Chrome, Firefox, Safari, Edge) for compatibility.<br>2. Verify consistent functionality and layout across browsers. |
+| Responsiveness            | 1. Test the application on various screen sizes (desktop, tablet, mobile) for responsiveness.<br>2. Ensure proper layout adjustment and readability. |
+| Accessibility             | 1. Use screen readers to navigate the application and ensure accessibility.<br>2. Test keyboard-only navigation and ensure all features are accessible. |
+| Integration Testing       | 1. Test interactions between different components of the application (e.g., front-end and back-end).<br>2. Verify seamless data flow and communication between modules. |
 
-- **Cross-browser Testing:** Testing app compatibility across different web browsers to ensure consistent performance.
-
-- **Performance Testing:** Monitoring app loading times, resource usage, and responsiveness for optimal performance.
+These tests ensure that the Cookbook application functions as intended, providing users with a reliable and user-friendly experience while interacting with recipes and categories.
 
 ### Deployment
 
-The app is deployed to a web hosting platform to make it accessible to users worldwide. Continuous deployment practices ensure that updates and enhancements are deployed seamlessly to the production environment.
+The app is deployed to a Heroku to make it accessible to users worldwide. Continuous deployment practices ensure that updates and enhancements are deployed seamlessly to the production environment.
