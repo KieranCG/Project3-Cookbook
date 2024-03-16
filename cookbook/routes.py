@@ -1,18 +1,22 @@
-from flask import render_template, request, redirect, url_for
+from flask import render_template, request, redirect, url_for, abort
 from cookbook import app, db
 from cookbook.models import Category, Recipe
 from sqlalchemy import func
+import logging
+
+# Configure logging
+logging.basicConfig(filename='app.log', level=logging.INFO)
 
 @app.route("/")
 def home():
     try:
         recipes = Recipe.query.order_by(Recipe.id).all()
         print(recipes)  # Print recipes to verify if they are fetched correctly
-        categories = Category.query.order_by(Category.category_name).all()  # Fetch categories as well
+        categories = Category.query.order_by(Category.category_name).all()
         return render_template("recipe.html", recipes=recipes, categories=categories)
     except Exception as e:
-        print(f"Error fetching recipes: {str(e)}")  # Log error message
-        return "Error fetching recipes. Please try again later.", 500
+        logging.error(f"Error fetching recipes: {str(e)}")
+        abort(500)  # Return HTTP 500 Internal Server Error
 
 @app.route("/categories")
 def categories():

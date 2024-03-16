@@ -1,0 +1,31 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 113-540-262
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:44] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:44] "GET /static/js/script.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:46] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:46] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:46] "GET /add_recipe HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:47] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:48] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:50] "GET /add_recipe HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:16:53] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/workspace/Project3-Cookbook/cookbook/routes.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 113-540-262
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:18:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:18:31] "GET /static/js/script.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:18:31] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [16/Mar/2024 07:18:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
