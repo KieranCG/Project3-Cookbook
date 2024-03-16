@@ -3,31 +3,32 @@
 
 <h3 class="green-text text-darken-5 center-align">Filtered Recipes</h3>
 
-<!-- Debug output for filtered recipes -->
-{% if filtered_recipes %}
-    <p>Filtered Recipes:</p>
-    <ul>
-        {% for recipe in filtered_recipes %}
-            <li>{{ recipe.recipe_name }}</li>
+{% if recipes %}
+    <ul class="collapsible">
+        {% for recipe in recipes %}
+        <li>
+            <div class="collapsible-header white-text light-green darken-3 z-depth-3">
+                <i class="fas fa-caret-down"></i>
+                <strong>{{ recipe.recipe_name }}</strong>
+            </div>
+            <div class="collapsible-body">
+                <strong>Category:</strong> {{ recipe.category.category_name }}<br>
+                <strong>Servings:</strong> {{ recipe.servings }}<br>
+                <strong>Prep Time:</strong> {{ recipe.prep_time }} minutes<br>
+                <strong>Cook Time:</strong> {{ recipe.cook_time }} minutes<br>
+                <strong>Total Time:</strong> {{ recipe.total_time }} minutes<br>
+                <p><em>{{ recipe.description }}</em></p>
+                <p>{{ recipe.instructions }}</p>
+                <p>
+                    <a href="{{ url_for('edit_recipe', recipe_id=recipe.id) }}" class="btn green accent-4">Edit</a>
+                    <a href="#" class="btn red delete-btn" data-recipe-id="{{ recipe.id }}">Delete</a>
+                </p>
+            </div>
+        </li>
         {% endfor %}
     </ul>
 {% else %}
     <p>No recipes found.</p>
 {% endif %}
-
-<!-- Rest of the HTML structure for displaying recipes -->
-<ul class="collapsible">
-    {% for recipe in filtered_recipes %}
-    <li>
-        <div class="collapsible-header white-text light-green darken-3 z-depth-3">
-            <i class="fas fa-caret-down"></i>
-            <strong>{{ recipe.recipe_name }}</strong>
-        </div>
-        <div class="collapsible-body">
-            <!-- Display recipe details here -->
-        </div>
-    </li>
-    {% endfor %}
-</ul>
 
 {% endblock %}
