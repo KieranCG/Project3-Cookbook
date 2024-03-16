@@ -124,7 +124,13 @@ A search bar allows users to quickly find recipes based on keywords.
 
 ##### Recipe Details
 
-Detailed recipe pages provide comprehensive information including ingredients, instructions, cooking tips, and nutritional facts. Interactive elements such as timers and cooking notes enhance user engagement.
+Detailed recipe pages provide comprehensive information including ingredients, instructions, cooking tips.
+
+##### Defensive Design
+
+Modal overlays prevent data loss when deleting by accident.
+
+![Warning Overlay](cookbook/static/images/warning-overlay.png "Modal Warning Overlay")
 
 #### External APIs Integration (Future Development)
 
@@ -150,7 +156,7 @@ The implementation of the Cookbook app involves the use of various technologies 
 
 The project follows a well-organized folder structure for easy navigation and maintenance. Here's an overview:
 
-![Folder Structure](assets/images/cookbook_folder_structure.png "Cookbook Folder Structure")
+![Folder Structure](cookbook/static/images/folder-structure.png "Cookbook Folder Structure")
 
 #### HTML Structure
 
@@ -164,11 +170,7 @@ The HTML files define the structure and content of the app, including pages such
 
 #### CSS Styling
 
-The CSS files are responsible for styling the HTML elements, ensuring a visually appealing and consistent design. Highlights include:
-
-- **Global Styling:** Setting default styles, defining color palettes, and ensuring cross-browser compatibility.
-
-- **Page-specific Styling:** Customizing styles for different sections of the app, such as recipe cards, search results, and navigation menus.
+The CSS files are responsible for styling the HTML elements, ensuring a visually appealing and consistent design. Materialize framework provides the majority of the CSS although some custom parts are added like the background image.
 
 #### JavaScript Functionality
 
