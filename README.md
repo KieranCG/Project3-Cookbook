@@ -215,3 +215,11 @@ The website passed the Lighthouse testing.
 ### Deployment
 
 The app is deployed to Heroku to make it accessible to users worldwide. Continuous deployment practices ensure that updates and enhancements are deployed seamlessly to the production environment.
+
+#### Continuous Deployment Practices
+
+The Cookbook app employs several continuous deployment practices to maintain a production-ready environment:
+
+- **Version Control:** Version control, using Git in this project, enables efficient collaboration among developers and facilitates tracking changes to the codebase. Utilizing branches for feature development, pull requests for code review, and merging changes ensure a structured and organized development process.
+
+By implementing these continuous deployment practices, the Cookbook app ensures scalability, reliability, and maintainability in delivering updates and enhancements to users while maintaining a stable production environment.
