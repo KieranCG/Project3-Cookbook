@@ -100,11 +100,17 @@ Clear and legible typography EB Garamond is selected to ensure easy readability 
 
 The app layout is designed to be responsive, adapting to various screen sizes and devices. Materialize grid-based layouts enhance the organization of content, providing a structured and visually appealing interface.
 
-![Main Page](cookbook/static/images/main-page-wireframe.png "Cookbook Main Page")
+![Main Wireframe Page](cookbook/static/images/main-page-wireframe.png "Cookbook Wireframe Page")
 
-![Responsive Design](cookbook/static/images/responsive-wireframe.png "Cookbook Responsive Design")
+![Main Page](cookbook/static/images/desktop-display.png "Cookbook Main Page")
 
-![Mobile Design](cookbook/static/images/mobile-wireframe.png "Cookbook Mobile Design")
+![Responsive Wireframe Design](cookbook/static/images/responsive-wireframe.png "Cookbook Wireframe Design")
+
+![Responsive Design](cookbook/static/images/tablet-display.png "Cookbook Tablet Design")
+
+![Mobile Wireframe Design](cookbook/static/images/mobile-wireframe.png "Cookbook Mobile Wireframe")
+
+![Mobile Design](cookbook/static/images/mobile-display.png "Cookbook Mobile Design")
 
 #### App Elements and Features
 

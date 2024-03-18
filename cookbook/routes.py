@@ -7,6 +7,7 @@ import logging
 # Configure logging
 logging.basicConfig(filename='app.log', level=logging.INFO)
 
+# Code contributed by [Code Institute]
 @app.route("/")
 def home():
     try:
@@ -22,6 +23,7 @@ def home():
 def categories():
     categories = list(Category.query.order_by(Category.category_name).all())
     return render_template("categories.html", categories=categories)
+#End of contribution
 
 @app.route("/add_category", methods=["GET", "POST"])
 def add_category():
