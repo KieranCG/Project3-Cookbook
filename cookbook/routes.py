@@ -117,12 +117,21 @@ def search():
     if request.method == "POST":
         try:
             search_term = request.form.get("search_term")
-            print("Search term:", search_term)  # Debugging statement
-            # Query the recipes based on the search term
             recipes = Recipe.query.filter(Recipe.recipe_name.ilike(f"%{search_term}%")).all()
-            print("Filtered recipes:", recipes)  # Debugging statement
-            return render_template("filtered_recipes.html", recipes=recipes, search_term=search_term)
+            if recipes:
+                return render_template("filtered_recipes.html", recipes=recipes, search_term=search_term)
+            else:
+                # Redirect to homepage if no recipes found
+                return redirect(url_for("home"))
         except Exception as e:
-            print(f"Error performing search: {str(e)}")  # Log error message
-            return "Error performing search. Please try again later.", 500
+            # Log error and return error message
+            print(f"Error performing search: {str(e)}")
+            return render_template("search_error.html"), 500  # Render error template
+
+    # Render search form template for GET requests
     return render_template("search.html")
+
+@app.route("/search_error", methods=["GET"])
+def search_error():
+    # Render error message template with a link/button to navigate back to the homepage
+    return render_template("search_error.html")

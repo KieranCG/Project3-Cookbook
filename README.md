@@ -70,6 +70,28 @@ Content requirements specify the specific elements, visuals, and information nee
 
 ### Design
 
+#### Data Schema
+
+The Cookbook application utilizes a relational database to store recipe and category information. Below is an overview of the data schema:
+
+##### Category Table
+
+- **id**: An auto-incremented integer serving as the primary key for each category.
+- **category_name**: A string field representing the name of the category. It is unique and cannot be null.
+
+##### Recipe Table
+
+- **id**: An auto-incremented integer serving as the primary key for each recipe.
+- **recipe_name**: A string field representing the name of the recipe. It cannot be null.
+- **description**: A text field containing a description of the recipe. It cannot be null.
+- **instructions**: A text field containing the cooking instructions for the recipe. It cannot be null.
+- **servings**: An integer field representing the number of servings the recipe yields. It cannot be null.
+- **prep_time**: An optional integer field representing the preparation time for the recipe in minutes.
+- **cook_time**: An optional integer field representing the cooking time for the recipe in minutes.
+- **total_time**: An optional integer field representing the total time required to prepare and cook the recipe in minutes.
+- **category_id**: An integer field serving as a foreign key referencing the id field of the Category table. It cannot be null, and it is set to cascade delete.
+
+
 #### Agile Project Development
 
 The development of the Cookbook app follows an Agile project development lifecycle. Agile principles have been applied to promote flexibility and iterative improvements throughout the development process.
