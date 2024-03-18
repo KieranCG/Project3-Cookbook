@@ -178,8 +178,6 @@ The script files are responsible for initialising interactive html functionality
 
 ### Testing
 
-### Testing
-
 Throughout the development process of the Cookbook project, extensive testing was conducted to ensure the reliability and functionality of the application. The following tests were performed after each iteration of code changes.
 
 | Test Category             | Test Description                                                                        |
@@ -196,8 +194,24 @@ Throughout the development process of the Cookbook project, extensive testing wa
 | Accessibility             | 1. Use screen readers to navigate the application and ensure accessibility.<br>2. Test keyboard-only navigation and ensure all features are accessible. |
 | Integration Testing       | 1. Test interactions between different components of the application (e.g., front-end and back-end).<br>2. Verify seamless data flow and communication between modules. |
 
+#### HTML Validator
+The website passes W3 validator with no issues.
+
+![HTML Validator](cookbook/static/images/w3html-checker.png "W3 Valid Image")
+
+#### CSS Validator
+The website passes W3 validator with inconsequential errors. Font-optical is compatible with all modern browsers and letter-spacing is part of the Materialize package which is verified by Google.
+
+![CSS Validator](cookbook/static/images/w3css-validator.png "CSS Validator Image")
+
 These tests ensure that the Cookbook application functions as intended, providing users with a reliable and user-friendly experience while interacting with recipes and categories.
+More tests were undertaken and are contained in a Word document in the static folder testing.
+
+#### Lighthouse Testing
+The website passed the Lighthouse testing.
+
+![Lighthouse results image](cookbook/static/images/lighthouse-test.png "Lighthouse results image")
 
 ### Deployment
 
-The app is deployed to a Heroku to make it accessible to users worldwide. Continuous deployment practices ensure that updates and enhancements are deployed seamlessly to the production environment.
+The app is deployed to Heroku to make it accessible to users worldwide. Continuous deployment practices ensure that updates and enhancements are deployed seamlessly to the production environment.
