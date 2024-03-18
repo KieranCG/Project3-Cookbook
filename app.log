@@ -122,3 +122,39 @@ INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:02:17] "GET /static/css/style.cs
 INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:02:17] "GET /static/js/script.js HTTP/1.1" 200 -
 INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:02:17] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
 INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:02:17] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.5.2:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 568-399-043
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:45] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:48] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:48] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:48] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:50] "GET /add_category HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:50] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:55] "[32mPOST /add_category HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:55] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:55] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:56] "GET /add_category HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:56] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:03] "[32mPOST /add_category HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:03] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:03] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:03] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:04] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -

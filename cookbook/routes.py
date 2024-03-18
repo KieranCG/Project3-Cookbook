@@ -21,9 +21,10 @@ def home():
 
 @app.route("/categories")
 def categories():
-    categories = list(Category.query.order_by(Category.category_name).all())
+    categories = Category.query.order_by(Category.category_name).all()
     return render_template("categories.html", categories=categories)
-#End of contribution
+
+# End of contribution
 
 @app.route("/add_category", methods=["GET", "POST"])
 def add_category():
@@ -52,7 +53,7 @@ def delete_category(category_id):
 
 @app.route("/add_recipe", methods=["GET", "POST"])
 def add_recipe():
-    categories = list(Category.query.order_by(Category.category_name).all())
+    categories = Category.query.order_by(Category.category_name).all()
     if request.method == "POST":
         try:
             recipe = Recipe(
@@ -77,7 +78,7 @@ def add_recipe():
 @app.route("/edit_recipe/<int:recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
     recipe = Recipe.query.get_or_404(recipe_id)
-    categories = list(Category.query.order_by(Category.category_name).all())
+    categories = Category.query.order_by(Category.category_name).all()
     if request.method == "POST":
         recipe.recipe_name = request.form.get("recipe_name")
         recipe.description = request.form.get("description")
@@ -99,7 +100,6 @@ def delete_recipe(recipe_id):
     db.session.commit()
     return redirect(url_for("home"))  # Redirect to home page after deleting
 
-
 @app.route("/filter_recipes", methods=["GET"])
 def filter_recipes():
     query = request.args.get("query")
@@ -111,7 +111,6 @@ def filter_recipes():
     filtered_recipes = Recipe.query.filter(func.lower(Recipe.recipe_name).like(f"%{search_term}%")).all()
     print("Filtered recipes:", filtered_recipes)  # Debugging statement
     return render_template("filtered_recipes.html", recipes=filtered_recipes, search_term=query)
-
 
 @app.route("/search", methods=["GET", "POST"])
 def search():
