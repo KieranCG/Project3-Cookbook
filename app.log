@@ -65,3 +65,29 @@ INFO:werkzeug: * Detected change in '/workspace/Project3-Cookbook/cookbook/__ini
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 232-612-898
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.5.2:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 232-612-898
+ERROR:root:Error fetching recipes: (psycopg2.OperationalError) connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO:werkzeug:192.168.162.76 - - [13/May/2024 12:04:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.5.2:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 232-612-898
+ERROR:root:Error fetching recipes: (psycopg2.OperationalError) connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO:werkzeug:192.168.162.76 - - [13/May/2024 12:10:10] "[35m[1mGET /?vscodeBrowserReqId=1715602210369 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/workspace/Project3-Cookbook/cookbook/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 232-612-898
