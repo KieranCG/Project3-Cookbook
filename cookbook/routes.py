@@ -4,8 +4,10 @@ from cookbook.models import Category, Recipe
 from sqlalchemy import func
 import logging
 
+
 # Configure logging
 logging.basicConfig(filename='app.log', level=logging.INFO)
+
 
 # Code contributed by [Code Institute]
 @app.route("/")
@@ -19,12 +21,14 @@ def home():
         logging.error(f"Error fetching recipes: {str(e)}")
         abort(500)  # Return HTTP 500 Internal Server Error
 
+
 @app.route("/categories")
 def categories():
     categories = Category.query.order_by(Category.category_name).all()
     return render_template("categories.html", categories=categories)
 
 # End of contribution
+
 
 @app.route("/add_category", methods=["GET", "POST"])
 def add_category():
@@ -35,6 +39,7 @@ def add_category():
         return redirect(url_for("categories"))
     return render_template("add_category.html")
 
+
 @app.route("/edit_category/<int:category_id>", methods=["GET", "POST"])
 def edit_category(category_id):
     category = Category.query.get_or_404(category_id)
@@ -44,12 +49,14 @@ def edit_category(category_id):
         return redirect(url_for("categories"))
     return render_template("edit_category.html", category=category)
 
+
 @app.route("/delete_category/<int:category_id>")
 def delete_category(category_id):
     category = Category.query.get_or_404(category_id)
     db.session.delete(category)
     db.session.commit()
     return redirect(url_for("categories"))
+
 
 @app.route("/add_recipe", methods=["GET", "POST"])
 def add_recipe():
@@ -75,6 +82,7 @@ def add_recipe():
             db.session.rollback()  # Rollback transaction in case of error
     return render_template("add_recipe.html", categories=categories)
 
+
 @app.route("/edit_recipe/<int:recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
     recipe = Recipe.query.get_or_404(recipe_id)
@@ -93,12 +101,14 @@ def edit_recipe(recipe_id):
         return redirect(url_for("home"))
     return render_template("edit_recipe.html", recipe=recipe, categories=categories)
 
+
 @app.route("/delete_recipe/<int:recipe_id>")
 def delete_recipe(recipe_id):
     recipe = Recipe.query.get_or_404(recipe_id)
     db.session.delete(recipe)
     db.session.commit()
     return redirect(url_for("home"))  # Redirect to home page after deleting
+
 
 @app.route("/filter_recipes", methods=["GET"])
 def filter_recipes():
@@ -111,6 +121,7 @@ def filter_recipes():
     filtered_recipes = Recipe.query.filter(func.lower(Recipe.recipe_name).like(f"%{search_term}%")).all()
     print("Filtered recipes:", filtered_recipes)  # Debugging statement
     return render_template("filtered_recipes.html", recipes=filtered_recipes, search_term=query)
+
 
 @app.route("/search", methods=["GET", "POST"])
 def search():
@@ -130,6 +141,7 @@ def search():
 
     # Render search form template for GET requests
     return render_template("search.html")
+
 
 @app.route("/search_error", methods=["GET"])
 def search_error():

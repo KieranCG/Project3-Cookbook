@@ -1,6 +1,7 @@
 # Code contributed by [Code Institute]
 from cookbook import db
 
+
 class Category(db.Model):
     # schema for the Category model
     id = db.Column(db.Integer, primary_key=True)
@@ -10,7 +11,8 @@ class Category(db.Model):
     def __repr__(self):
         # __repr__ to represent itself in the form of a string
         return self.category_name
-#End of contribution
+# End of contribution
+
 
 class Recipe(db.Model):
     # schema for the Recipe model

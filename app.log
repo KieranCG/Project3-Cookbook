@@ -3,216 +3,65 @@ WARNING:werkzeug: * Running on all addresses.
 INFO:werkzeug: * Running on http://10.0.5.2:8080/ (Press CTRL+C to quit)
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 111-512-546
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:40] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:40] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:49] "GET /add_recipe HTTP/1.1" 200 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:49] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:49] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:51] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:51] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:51] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:51] "GET /categories HTTP/1.1" 200 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:51] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:51] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:52] "GET /categories HTTP/1.1" 200 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:52] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:52] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:54] "GET /categories HTTP/1.1" 200 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:54] "GET /static/js/script.js HTTP/1.1" 200 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:54] "GET /static/css/style.css HTTP/1.1" 200 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:54] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:54] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:56] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.107.70 - - [16/Mar/2024 18:26:56] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Debugger PIN: 980-110-108
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://10.0.5.2:8080/ (Press CTRL+C to quit)
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 425-640-763
-INFO:werkzeug:192.168.143.138 - - [18/Mar/2024 09:19:44] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.143.138 - - [18/Mar/2024 09:19:45] "GET /static/js/script.js HTTP/1.1" 200 -
-INFO:werkzeug:192.168.143.138 - - [18/Mar/2024 09:19:45] "GET /static/css/style.css HTTP/1.1" 200 -
-INFO:werkzeug:192.168.143.138 - - [18/Mar/2024 09:19:45] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
-INFO:werkzeug:192.168.143.138 - - [18/Mar/2024 09:19:46] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://10.0.5.2:8080/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 568-399-043
-ERROR:root:Error fetching recipes: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 5432 failed: FATAL:  database "cookbook" does not exist
+INFO:werkzeug: * Debugger PIN: 232-612-898
+ERROR:root:Error fetching recipes: (psycopg2.OperationalError) connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
 
 (Background on this error at: https://sqlalche.me/e/14/e3q8)
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:53:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:53:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.162.76 - - [13/May/2024 11:39:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.162.76 - - [13/May/2024 11:39:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/workspace/Project3-Cookbook/cookbook/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 232-612-898
+INFO:werkzeug: * Detected change in '/workspace/Project3-Cookbook/cookbook/models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 232-612-898
+INFO:werkzeug: * Detected change in '/workspace/Project3-Cookbook/cookbook/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 232-612-898
+INFO:werkzeug: * Detected change in '/workspace/Project3-Cookbook/cookbook/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 232-612-898
+INFO:werkzeug: * Detected change in '/workspace/Project3-Cookbook/cookbook/routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 232-612-898
+INFO:werkzeug: * Detected change in '/workspace/Project3-Cookbook/env.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 232-612-898
+ERROR:root:Error fetching recipes: (psycopg2.OperationalError) connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO:werkzeug:192.168.162.76 - - [13/May/2024 11:43:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:root:Error fetching recipes: (psycopg2.OperationalError) connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO:werkzeug:192.168.162.76 - - [13/May/2024 11:48:52] "[35m[1mGET /?vscodeBrowserReqId=1715600932250 HTTP/1.1[0m" 500 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://10.0.5.2:8080/ (Press CTRL+C to quit)
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 568-399-043
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:57:57] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:57:57] "GET /static/js/script.js HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:57:57] "GET /static/css/style.css HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:57:58] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:57:58] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:00] "GET /add_recipe HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:00] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:02] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:02] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:02] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:22] "GET /add_recipe HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:23] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:23] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:32] "GET /categories HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:32] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:32] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:33] "GET /add_category HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:33] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:33] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:37] "[32mPOST /add_category HTTP/1.1[0m" 302 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:37] "GET /categories HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:37] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:39] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:39] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:39] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:41] "GET /add_recipe HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:41] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:58:41] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:59:42] "[32mPOST /add_recipe HTTP/1.1[0m" 302 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:59:42] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:59:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:59:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:59:42] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:59:53] "GET /add_recipe HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:59:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:59:53] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 12:59:53] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:00:29] "[32mPOST /add_recipe HTTP/1.1[0m" 302 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:00:29] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:00:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:00:29] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:00:29] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug: * Detected change in '/workspace/Project3-Cookbook/cookbook/routes.py', reloading
+INFO:werkzeug: * Debugger PIN: 232-612-898
+ERROR:root:Error fetching recipes: (psycopg2.OperationalError) connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO:werkzeug:192.168.162.76 - - [13/May/2024 11:58:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/workspace/Project3-Cookbook/cookbook/__init__.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 568-399-043
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:02:17] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:02:17] "GET /static/css/style.css HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:02:17] "GET /static/js/script.js HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:02:17] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:02:17] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://10.0.5.2:8080/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 568-399-043
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:45] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:45] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:48] "GET /categories HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:48] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:48] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:50] "GET /add_category HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:50] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:55] "[32mPOST /add_category HTTP/1.1[0m" 302 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:55] "GET /categories HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:55] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:56] "GET /add_category HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:22:56] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:03] "[32mPOST /add_category HTTP/1.1[0m" 302 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:03] "GET /categories HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:03] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:03] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:04] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:23:04] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:46:29] "GET /add_recipe HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:46:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:46:29] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 13:46:29] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug: * Detected change in '/workspace/Project3-Cookbook/cookbook/routes.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 568-399-043
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:01:55] "GET /add_recipe HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:01:55] "GET /static/css/style.css HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:01:55] "GET /static/js/script.js HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:01:55] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:01:56] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:01:56] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:01:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:01:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:01:56] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:02:00] "GET /filter_recipes?query=Vege HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:02:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:02:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:02:00] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:02:09] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:02:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:02:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:02:09] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:02:11] "GET /filter_recipes?query=Rash HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:02:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:02:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:02:11] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug: * Detected change in '/workspace/Project3-Cookbook/cookbook/routes.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 568-399-043
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:04] "GET /filter_recipes?query=Rash HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:04] "GET /static/css/style.css HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:04] "GET /static/js/script.js HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:04] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:05] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:07] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:07] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:07] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:16] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:16] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:17] "GET /categories HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:17] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:17] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:18] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:18] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:18] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:22] "GET /filter_recipes?query=Go HTTP/1.1" 200 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:22] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:192.168.97.74 - - [18/Mar/2024 14:06:22] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Debugger PIN: 232-612-898
