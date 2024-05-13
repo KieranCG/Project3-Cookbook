@@ -24,3 +24,7 @@ main {
   position: relative;
   z-index: 1; /* Ensure the collapsible items are in front of the background */
 }
+
+nav .brand-logo {
+  padding-left: 10px;
+}

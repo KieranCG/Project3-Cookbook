@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h3 class="green-text text-darken-5 center-align">Recipes</h3>
+<h3 class="green-text text-darken-5 center-align"><strong>Recipes</strong></h3>
 
 <!-- Search Bar -->
 <form action="{{ url_for('filter_recipes') }}" method="GET">
@@ -26,7 +26,7 @@
 
 <div class="row">
     <div class="col s12 center-align">
-        <a href="{{ url_for('add_recipe') }}" class="btn-large light-green darken-3">
+        <a href="{{ url_for('add_recipe') }}" class="btn-large light-green darken-3 hoverable">
             Add Recipe <i class="fas fa-plus-square right"></i>
         </a>
     </div>
