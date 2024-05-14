@@ -28,3 +28,12 @@ main {
 nav .brand-logo {
   padding-left: 10px;
 }
+
+.col li {
+  display: flex;
+  align-items: center;
+}
+
+.col li i {
+  margin-right: 10px; /* Adjust as needed */
+}

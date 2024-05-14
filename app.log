@@ -508,3 +508,215 @@ INFO:werkzeug:192.168.80.203 - - [13/May/2024 14:33:17] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:192.168.80.203 - - [13/May/2024 14:33:20] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
 INFO:werkzeug:192.168.80.203 - - [13/May/2024 14:33:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:192.168.80.203 - - [13/May/2024 14:33:20] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.5.2:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-920-559
+ERROR:root:Error fetching recipes: (psycopg2.OperationalError) connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO:werkzeug:192.168.15.139 - - [13/May/2024 20:56:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.15.139 - - [13/May/2024 20:56:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.5.2:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-920-559
+INFO:werkzeug:192.168.15.139 - - [13/May/2024 20:57:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [13/May/2024 20:57:37] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [13/May/2024 20:57:37] "GET /static/js/script.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [13/May/2024 20:57:37] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [13/May/2024 20:57:38] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.5.2:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-135-909
+ERROR:root:Error fetching recipes: (psycopg2.OperationalError) connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:01:15] "[35m[1mGET / HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.5.2:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-135-909
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:02:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:02:10] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:02:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:02:10] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:02:11] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:03:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:03:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:03:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:03:41] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:03:42] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:04:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:04:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:05:13] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:05:13] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:05:14] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:05:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:06:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:06:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:06:18] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:06:18] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 12:06:20] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 12:08:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 12:08:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 12:08:22] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 12:08:22] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 12:08:23] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 12:11:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 12:11:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 12:11:15] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 12:11:15] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 12:11:16] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.5.2:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-933-151
+ERROR:root:Error fetching recipes: (psycopg2.OperationalError) connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:37:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.5.2:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 787-933-151
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:38:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:38:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:38:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:38:35] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:38:36] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:41:22] "GET /add_recipe HTTP/1.1" 200 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:41:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:41:23] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:41:23] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:41:42] "[32mPOST /add_recipe HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:41:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:41:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:41:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:41:44] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:41:47] "GET /add_recipe HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:41:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:41:47] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:41:47] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:41:58] "[32mPOST /add_recipe HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:41:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:41:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:42:01] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:42:01] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:42:02] "GET /add_recipe HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:42:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:42:02] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:42:02] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:42:12] "[32mPOST /add_recipe HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:42:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:42:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:42:12] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:42:13] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:42:16] "GET /add_recipe HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:42:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:42:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:42:16] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:42:28] "[32mPOST /add_recipe HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:42:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:42:30] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:42:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:42:30] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:46:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:46:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:46:18] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:46:21] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:46:21] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:49:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:49:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:49:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:49:26] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:49:26] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:50:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:50:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:50:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:50:01] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:50:01] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:51:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:51:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:51:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:51:40] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:51:40] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:52:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:52:56] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:52:56] "GET /static/js/script.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:53:04] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.162.76 - - [14/May/2024 14:53:09] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:54:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:54:36] "GET /static/js/script.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:54:36] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:54:36] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 14:54:40] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:55:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:55:55] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:56:05] "GET /static/js/script.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:56:05] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:56:12] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:57:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:57:01] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:57:01] "GET /static/js/script.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:57:03] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:57:06] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:58:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:58:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:58:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:58:36] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 14:58:36] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:00:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:00:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:00:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:00:44] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:00:45] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:01:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:01:13] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:01:13] "GET /static/js/script.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:01:13] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:01:16] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:01:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:01:34] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:01:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:01:35] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:01:35] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:02:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:02:09] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:02:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:02:10] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:02:11] "[36mGET /static/images/favicon/favicon-32x32.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:02:20] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:02:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:02:21] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:02:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:02:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:02:29] "[36mGET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:02:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:02:29] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 15:04:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 15:04:05] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 15:04:05] "GET /static/js/script.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:04:12] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.80.203 - - [14/May/2024 15:04:14] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 15:05:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 15:05:19] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 15:05:19] "GET /static/js/script.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 15:05:20] "GET /static/images/todd-quackenbush-x5SRhkFajrA-unsplash-greyscale.jpg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.15.139 - - [14/May/2024 15:05:23] "GET /static/images/favicon/favicon-32x32.png HTTP/1.1" 200 -
